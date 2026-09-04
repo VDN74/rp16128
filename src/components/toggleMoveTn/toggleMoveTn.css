@@ -1,0 +1,55 @@
+.toggle-move-tn {
+	width: 60px;
+	height: 74px;
+	background-color: #ffffff;
+}
+
+.toggle-move-tn__wrapper {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	transition: transform 0.3s;
+}
+
+.toggle-move-tn__wrapper.move {
+	transform: translateX(100%);
+}
+
+.toggle-move-tn__line-1 {
+	position: absolute;
+	top:0;
+	left: calc(50% - 1px);
+	width: 2px;
+	height: 42px;
+	background-color: #000;
+}
+
+.toggle-move-tn__circle1 {
+	position: absolute;
+	top: 42px;
+	left: -11px;
+    width: 24px;        /* ширина круга */
+    height: 24px;       /* высота круга (равна ширине) */
+    border: 2px solid black; /* Толщина и цвет контура */
+    border-radius: 50%
+}
+
+.toggle-move-tn__circle2 {
+	position: absolute;
+	top: 54px;
+	left: -4px;
+    width: 24px;        /* ширина круга */
+    height: 24px;       /* высота круга (равна ширине) */
+    border: 2px solid black; /* Толщина и цвет контура */
+    border-radius: 50%
+}
+
+.toggle-move-tn__circle3 {
+	position: absolute;
+	top: 54px;
+	left: -19px;
+    width: 24px; 
+    height: 24px;
+    border: 2px solid black;
+    border-radius: 50%
+}

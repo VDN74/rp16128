@@ -1,0 +1,39 @@
+.toggle-move-rr {
+	width: 60px;
+	height: 74px;
+	background-color: #ffffff;
+}
+
+.toggle-move-rr__wrapper {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	transition: transform 0.3s;
+}
+
+.toggle-move-rr__wrapper.move {
+	transform: translateX(100%);
+}
+
+.toggle-move-rr__line-1 {
+	position: absolute;
+	top:0;
+	left: calc(50% - 1px);
+	width: 2px;
+	height: 100%;
+	background-color: #000;
+}
+
+.toggle-move-rr__rr {
+	position: absolute;
+	top:25%;
+	left: -4px;
+	width: 10px;
+	height: 50%;
+}
+
+.toggle-move-rr__rr-line {
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgb(0,0,0);
+}
