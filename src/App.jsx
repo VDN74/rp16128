@@ -42,7 +42,7 @@ const App = () => {
       display: "flex",
       flexDirection: "column",
       gap: "10px",
-      width: "600px",
+      width: "610px",
       height: "315px",
       zIndex: "10",
     },
