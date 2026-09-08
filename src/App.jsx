@@ -42,8 +42,8 @@ const App = () => {
       display: "flex",
       flexDirection: "column",
       gap: "10px",
-      width: "580px",
-      height: "310px",
+      width: "585px",
+      height: "315px",
       zIndex: "10",
     },
     overlay: {
